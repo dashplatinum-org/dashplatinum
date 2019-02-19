@@ -17,6 +17,6 @@ Please reach out at dashpnew@gmail.com
 ------------------------------------------------------
 | Total Coin Supply (premine) 2% | 394,000   DASHP   |
 ------------------------------------------------------
-| Total Coin Supply (PoW/POS/MN) | 19,700,000 DASHP  |
+| Max Coin Supply (PoW/POS/MN)   | 19,700,000 DASHP  |
 ------------------------------------------------------
 wallets desktop http://release.dashplatinum.org
