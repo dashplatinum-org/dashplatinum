@@ -16,6 +16,7 @@ To Build
 ---------------------
 
 ```bash
+chmod +x autogen.sh
 ./autogen.sh
 ./configure
 make
