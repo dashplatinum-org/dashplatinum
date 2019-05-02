@@ -70,11 +70,13 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (1000, uint256("0xf51681be33869f71ab26903afc672a24fd95997e573dc23461d53ba4f8909f47"))
     (1931, uint256("0xc85bae92ad229eeac021736fcc74b56a4fbb516cb6c3b893961fa31b99a1ef63"))
     (6348, uint256("0xe5d9f9d343e40e144a7115ecf8fc113b43d9be23b72c695ba06eee47bcca9083"))
-    (6400, uint256("0xaa4b5cc358c172dae31f71d5f97a30e1592c2558faef5b1baa33ea8b2f033042"));
+    (6400, uint256("0xaa4b5cc358c172dae31f71d5f97a30e1592c2558faef5b1baa33ea8b2f033042"))
+    (38668, uint256("0x72379eb7cb255c4a417093b082cb8d04f87f7d712a5f3a331847e66234a596ba"));
+    
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1550524897, // * UNIX timestamp of last checkpoint block
-    12663,          // * total number of transactions between genesis and last checkpoint
+    1556797786, // * UNIX timestamp of last checkpoint block
+    82490,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -142,13 +144,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xc398fca03cbbbf92ba04b3b55f1368b9470a77e4bdcfab996291e2d228684584"));
 
 
-        vSeeds.push_back(CDNSSeedData("sed1", "157.230.223.211"));
-        vSeeds.push_back(CDNSSeedData("sed2", "159.65.240.99"));
-        vSeeds.push_back(CDNSSeedData("sed3", "157.230.132.231"));
-        vSeeds.push_back(CDNSSeedData("sed4", "178.62.195.103"));
-        vSeeds.push_back(CDNSSeedData("sed5", "138.68.85.71"));
-        vSeeds.push_back(CDNSSeedData("sed6", "209.97.134.255"));
-        vSeeds.push_back(CDNSSeedData("sed7", "159.203.9.176"));
+        vSeeds.push_back(CDNSSeedData("sed1", "sed1.dashplatinum.org"));
+        vSeeds.push_back(CDNSSeedData("sed2", "sed2.dashplatinum.org"));
+        vSeeds.push_back(CDNSSeedData("sed3", "sed3.dashplatinum.org"));
+        vSeeds.push_back(CDNSSeedData("sed4", "sed4.dashplatinum.org"));
+        vSeeds.push_back(CDNSSeedData("sed5", "sed5.dashplatinum.org"));
+        vSeeds.push_back(CDNSSeedData("sed6", "sed6.dashplatinum.org"));
+        vSeeds.push_back(CDNSSeedData("sed7", "sed7.dashplatinum.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
