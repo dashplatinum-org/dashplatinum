@@ -19,4 +19,27 @@ Please reach out at dashpnew@gmail.com
 ------------------------------------------------------
 | Max Coin Supply (PoW/POS/MN)   | 19,700,000 DASHP  |
 ------------------------------------------------------
+REWARD BLOCKS:
+---------------------
+0004 to 14399 = 1.10
+
+14400 to 28799 = 1.70
+
+28800 to 43199 = 2.60
+
+43200 to 57599 = 2.90
+
+57600 to 172799 = 5.10
+
+345600 to 518399 = 4.05
+
+518400 to 604799 = 3.64
+
+604800 to 5149846 = 3.28
+
+5149846 forward = 3.28
+
+-----------------------------------------------
 wallets desktop http://release.dashplatinum.org
+
+https://github.com/dashplatinum-org/dashplatinum/releases
