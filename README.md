@@ -37,9 +37,7 @@ REWARD BLOCKS:
 
 518400 to 604799 = 3.64
 
-604800 to 5149846 = 3.28
-
-5149846 forward = 3.28
+604800 to forward = 3.28
 
 -----------------------------------------------
 wallets desktop http://release.dashplatinum.org
